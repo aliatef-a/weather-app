@@ -133,129 +133,153 @@ body {
 
 /* media query */
 
-@media only screen and (max-width: 600px) {
+
+@media (max-width: 1124px) {
     .color img {
-        width: 10%;
-        margin-top: 7px;
+        width: 4%;
+        margin-top: 10px;
     }
-    .card{
-        width: 100%;
-    }
-    .card .search {
-        width: 80%;
-    }
-    .weather {
-        width: 100%;
-        display: block;
-        margin: auto;
-    }
-    .weather .div1 {
+    .card {
         width: 100%;
     }
     .weather .div1 img {
-        width: 50%;
+        width: 70%;
     }
     .weather .div2 {
-        width: 100%;
-    }
-    .weather h1 {
-        font-size: 50px;
-    }
-    .weather h2 {
-        font-size: 50px;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .color img {
-        width: 8%;
-        margin-top: 7px;
-    }
-    .card{
-        width: 100%;
-    }
-    .card .search {
-        width: 75%;
-    }
-    .weather {
-        width: 100%;
-        display: block;
-        margin: auto;
-        align-items: center;
-        align-content: center;
-    }
-    .weather .div1 {
-        width: 100%;
-    }
-    .weather .div1 img {
         width: 40%;
     }
-    .weather .div2 {
-        width: 100%;
-    }
     .weather h1 {
-        font-size: 50px;
+        font-size: 60x;
+        margin: 10px 0;
     }
     .weather h2 {
-        font-size: 50px;
+        font-size: 60px;
+        margin: 10px 0;
     }
-    .details {
-        justify-content: space-around;
+    .humidity , .wind {
+        font-size: 20px;
+        margin-top: -6px;
+    } 
+}
+@media (max-width: 935px) {
+    .color img {
+        width: 4%;
+        margin-top: 10px;
+    }
+    .card {
+        width: 100%;
+    }
+    .weather {
+        width: 90%;
+        margin: auto;
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media (max-width: 800px) {
+    .search {
+        width: 70%;
+    }
     .color img {
-        width: 5%;
-        margin-top: 7px;
-    }
-    .card{
-        width: 100%;
-    }
-    .card .search {
-        width: 75%;
+        width: 7%;
+        margin-right: 5px;
+        margin-top: 15px;
     }
     .weather {
-        width: 70%;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+       display: block;
+       width: 100%;
+       margin: auto;
     }
     .weather .div1 {
-        width: 60%;
-    }
-    .weather .div1 img {
         width: 100%;
+    }
+    .weather .div1 img{
+        width: 30%;
     }
     .weather .div2 {
         width: 100%;
     }
     .weather h1 {
         font-size: 50px;
+        
     }
     .weather h2 {
         font-size: 50px;
     }
     .details {
-        width: 100%;
-        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 10px;
+        margin-top: 50px;
     }
-
 }
-
-@media only screen and (max-width: 1200px) {
+@media (max-width: 580px) {
+    .card {
+        width: 100%;
+    }
+    .search {
+        width: 70%;
+    }
     .color img {
-        width: 5%;
-        margin-top: 1px;
+        width: 7%;
+        margin-right: 5px;
+        margin-top: 15px;
     }
-    .card{
+    .details {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0 10px;
+        margin-top: 90px;
+    }
+}
+@media (max-width: 546px) {
+    .search {
+        width: 80%;
+    }
+    
+}
+@media (max-width: 480px) {
+    .search {
+        width: 90%;
+    }
+}
+@media (max-width: 435px) {
+    .search {
         width: 100%;
     }
-    .card .search {
-        width: 75%;
+}
+@media (max-width: 435px) {
+    .color img {
+        width: 7%;
+        margin-top: 20px;
     }
-    .weather {
+    .search {
+        width: 90%;
+    }
+}
+@media (max-width: 381px) {
+    .search {
         width: 100%;
+        margin: auto;
     }
+    .search button {
+        padding: 0 20px;
+    }
+    .card {
+        width: 100%;
+        height: 100vh;
+    }
+    .color  {
+        width: 100%;
+        margin: auto;
+        margin-top: -40px;
+
+    }
+    .color img {
+        width: 9%;
+        margin-bottom: 20px;
+        margin-left: 120px;
+    }
+
 }
