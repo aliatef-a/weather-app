@@ -249,7 +249,7 @@ body {
         width: 100%;
     }
 }
-@media (max-width: 435px) {
+/* @media (max-width: 435px) {
     .color img {
         width: 7%;
         margin-top: 20px;
@@ -257,8 +257,8 @@ body {
     .search {
         width: 90%;
     }
-}
-@media (max-width: 381px) {
+} */
+@media (max-width: 435px) {
     .search {
         width: 100%;
         margin: auto;
@@ -279,7 +279,5 @@ body {
     .color img {
         width: 9%;
         margin-bottom: 20px;
-        margin-left: 120px;
+        margin-left: 140px;
     }
-
-}
