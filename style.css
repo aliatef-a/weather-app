@@ -261,10 +261,11 @@ body {
 @media (max-width: 435px) {
     .search {
         width: 100%;
-        margin: auto;
     }
-    .search button {
-        padding: 0 20px;
+    .search input {
+        width: 80%;
+        padding: 8px 20px;
+        font-size: 15px;
     }
     .card {
         width: 100%;
@@ -281,3 +282,5 @@ body {
         margin-bottom: 20px;
         margin-left: 140px;
     }
+
+}
